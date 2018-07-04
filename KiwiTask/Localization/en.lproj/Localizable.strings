@@ -1,0 +1,14 @@
+/* 
+  LocalizedString.strings
+  KiwiTask
+
+  Created by Ondrej Andrysek on 7/4/18.
+  Copyright © 2018 cz.oa. All rights reserved.
+*/
+
+"Flight offers" = "Flight offers";
+"Fetching the best flights" = "Fetching the best flights";
+"Couldn't fetch any data, check your connection and try again." = "Couldn't fetch any data, check your connection and try again.";
+"Try again" = "Try again";
+"from" = "from";
+

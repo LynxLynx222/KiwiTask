@@ -1,0 +1,13 @@
+/* 
+  LocalizedString.strings
+  KiwiTask
+
+  Created by Ondrej Andrysek on 7/4/18.
+  Copyright © 2018 cz.oa. All rights reserved.
+*/
+
+"Flight offers" = "Nabídka letů";
+"Fetching the best flights" = "Načítám nejlepší lety";
+"Couldn't fetch any data, check your connection and try again." = "Nepodařilo se nic načíst, zkontrolujte si připojení a zkuste to znovu";
+"Try again" = "Zkusit znovu";
+"from" = "od";
