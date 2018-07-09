@@ -51,7 +51,7 @@ class ApiService{
         
         let locale = LocaleManager.getLocale().rawValue
         
-        requestJson(url: "https://api.skypicker.com/flights?v=2&sort=popularity&asc=0&locale=\(locale)&daysInDestinationFrom=&daysInDestinationTo=&affilid=&children=0&infants=0&flyFrom=\(latitude)-\(longitude)-250km&to=anywhere&featureName=aggregateResults&dateFrom=\(dateFrom)&dateTo=\(dateTo)&typeFlight=oneway&returnFrom=&returnTo=&one_per_date=0&oneforcity=1&wait_for_refresh=0&adults=1&limit=5", method: .get) { (response,error) in
+        requestJson(url: "https://api.skypicker.com/flights?v=2&sort=popularity&asc=0&locale=\(locale)&daysInDestinationFrom=&daysInDestinationTo=&affilid=&children=0&infants=0&flyFrom=\(latitude)-\(longitude)-250km&to=anywhere&featureName=aggregateResults&dateFrom=\(dateFrom)&dateTo=\(dateTo)&typeFlight=oneway&returnFrom=&returnTo=&one_per_date=0&oneforcity=1&wait_for_refresh=0&adults=1&limit=5&price_to=200", method: .get) { (response,error) in
             if let response = response as? [String: Any], let json = response["data"] as? [[String: Any]]{
                 var destinations = [Destination]()
                 for i in json{
